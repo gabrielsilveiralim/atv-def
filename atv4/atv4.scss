@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(189, 131, 243);
+  color: white;
+  font-family: 'Poppins';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+  h1{
+    font-size: 25px;
+    display: flex;
+    margin-left: 300px;
+  }
+
+  ul {
+    display: flex;       
+    gap: 50px;          
+    list-style: none;  
+    margin-right: 300px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white; 
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+

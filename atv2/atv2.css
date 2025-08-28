@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+.tab th, .tab td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid white;
+}
+.tab th {
+  background-color: #073c8b;
+}
+.tab td:hover {
+  background-color: #073c8b;
+  cursor: pointer;
+}/*# sourceMappingURL=atv2.css.map */

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 98, 85));
+}
+
+header {
+  margin-bottom: 5px;
+  color: rgb(185, 193, 199);
+}
+header h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+main {
+  margin-bottom: 5px;
+  color: rgb(185, 193, 199);
+}
+main .apre {
+  font-size: 20px;
+  margin-top: 10px;
+}
+main .apre p {
+  width: 700px;
+}
+main .hobbe {
+  font-size: 16px;
+  justify-items: end;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+main .img {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: auto;
+  height: 600px;
+}
+main .link {
+  width: 210px;
+  height: 20px;
+  margin-top: 30px;
+}
+main .link a {
+  text-decoration: none;
+  background-color: cadetblue;
+  color: beige;
+  padding: 4px;
+  border-radius: 5px;
+}
+main .link :hover {
+  background-color: black;
+  color: aqua;
+  transition: 200ms;
+}/*# sourceMappingURL=atv1.css.map */
