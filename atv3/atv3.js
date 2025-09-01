@@ -13,9 +13,11 @@ function deleteLast() {
 }
 
 function calculeResult() {
-    try {
-        display.value = eval(display.value);
-    } catch {
-        display.value = "Erro";
+    const value = eval(display.value);
+    if (value === undefined){
+        alert("Digite um valor!") 
+    } else{
+       display.value = value ;
     }
+
 }

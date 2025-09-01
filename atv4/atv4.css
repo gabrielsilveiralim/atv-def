@@ -30,6 +30,12 @@ header a {
   text-decoration: none;
   color: white;
 }
+header :hover {
+  color: aqua;
+}
+header .active {
+  color: aqua;
+}
 
 section {
   display: flex;

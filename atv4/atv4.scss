@@ -32,6 +32,14 @@ header {
     text-decoration: none;
     color: white; 
   }
+
+  :hover {
+    color: aqua;
+  }
+
+  .active{
+    color: aqua;
+  }
 }
 
 section {
